@@ -1,4 +1,5 @@
-/*! $.classVal - WTFPL - refreshless.com/classval/ */
+/**@preserve
+$.classVal - WTFPL - refreshless.com/classval/ */
 
 /*jslint browser: true */
 /*jslint sub: true */
