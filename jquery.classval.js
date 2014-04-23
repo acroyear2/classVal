@@ -5,12 +5,6 @@ $.classVal - WTFPL - refreshless.com/classval/ */
 /*jslint sub: true */
 /*jslint white: true */
 
-// ==ClosureCompiler==
-// @externs_url http://refreshless.com/externs/jquery-1.8.js
-// @compilation_level ADVANCED_OPTIMIZATIONS
-// @warning_level VERBOSE
-// ==/ClosureCompiler==
-
 (function( $ ){
 
 	'use strict';

@@ -1,0 +1,23 @@
+{
+	"name": "classval",
+	"description": "jQuery plugin for switching .val() implementation for DOM elements with various classes.",
+	"keywords": [
+		"jquery",
+		"val"
+	],
+	"main": [
+		"jquery.classval.js"
+	],
+	"dependencies": {
+		"jquery": ">= 1.7.0"
+	},
+	"ignore": [
+		"**/.*",
+		"**/*.json"
+	],
+	"license": "http://www.wtfpl.net/about/",
+	"homepage": "http://refreshless.com/nouislider/",
+	"author": {
+		"name": "Léon Gersen"
+	}
+}
