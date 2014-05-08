@@ -5,7 +5,15 @@ $.classVal - WTFPL - refreshless.com/classval/ */
 /*jslint sub: true */
 /*jslint white: true */
 
-(function( $ ){
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+    define(['jquery'], factory);
+  } else if (typeof exports === 'object') {
+    factory(require('jquery'));
+  } else {
+    factory(jQuery);
+  }
+}(function ($) {
 
 	'use strict';
 
@@ -80,4 +88,4 @@ $.classVal - WTFPL - refreshless.com/classval/ */
 		});
 	};
 
-}( window['jQuery'] || window['Zepto'] ));
+}));
